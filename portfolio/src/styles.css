@@ -1,1 +1,31 @@
-/* You can add global styles to this file, and also import other style files */
+@font-face {
+    font-family: Raleway;
+    src: url('./assets/Raleway/Raleway-VariableFont_wght.ttf') format('truetype');
+}
+
+body{
+    margin:0;
+    font-family: Raleway;
+}
+
+:root {
+    --primary-color: #007bff;
+    --secondary-color: #6c757d;
+    --success-color: #28a745;
+    --danger-color: #dc3545;
+    --warning-color: #ffc107;
+    --info-color: #17a2b8;
+    --light-color: #f8f9fa;
+    --dark-color: #343a40;
+
+    --pastel-blue: #add8e6;
+    --light-pink: #ffb6c1;
+    --earth-beige: #f5f5dc;
+    --accent-coral: #ff7f50;
+
+    --dusty-rose: #d3a6a1;
+    --periwinkle: #ccccff;
+    --raspberry: #e30b5d;
+    --hireme:#D23249;
+    --burnt-orange: #cc5500;
+}
