@@ -1,0 +1,36 @@
+.navbar{
+    display: flex;
+    font-size: x-large;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: pink; */
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+}
+
+.navbar_menu{
+    display: flex;
+    font-size: x-large;
+    /* background-color: white; */
+    justify-content: space-between;
+    gap:20px;
+}
+
+.hireme{
+    /* background-color: red; */
+    gap:20px;
+}
+
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
